@@ -1,6 +1,5 @@
 [![Logo][jbooter-image]][jbooter-url]
 
-Greetings, Java Hipster!
 
 
 

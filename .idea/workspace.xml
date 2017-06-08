@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4ca8ee-93fe-485d-af9c-e904398ebf0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/client/templates/angular/src/main/webapp/content/images/_logo-jhipster.png" afterPath="$PROJECT_DIR$/generators/client/templates/angularjs/src/main/webapp/content/images/_logo-jbooter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/client/templates/angular/webpack/logo-jhipster.png" afterPath="$PROJECT_DIR$/generators/client/templates/angular/webpack/logo-jbooter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/client/templates/angularjs/src/main/webapp/app/components/util/_jhi-item-count.directive.js" afterPath="$PROJECT_DIR$/generators/client/templates/angularjs/src/main/webapp/app/components/util/_jbt-item-count.directive.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/client/templates/angularjs/src/main/webapp/content/images/_logo-jhipster.png" afterPath="$PROJECT_DIR$/generators/client/templates/angular/src/main/webapp/content/images/_logo-jbooter.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/docker-compose/templates/_jhipster-console.yml" afterPath="$PROJECT_DIR$/generators/docker-compose/templates/_jbooter-console.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/docker-compose/templates/_jhipster-registry.yml" afterPath="$PROJECT_DIR$/generators/docker-compose/templates/_jbooter-registry.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/kubernetes/templates/registry/_jhipster-registry.yml" afterPath="$PROJECT_DIR$/generators/kubernetes/templates/registry/_jbooter-registry.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/openshift/templates/monitoring/_jhipster-metrics.yml" afterPath="$PROJECT_DIR$/generators/openshift/templates/monitoring/_jbooter-metrics.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/openshift/templates/monitoring/_jhipster-monitoring.yml" afterPath="$PROJECT_DIR$/generators/openshift/templates/monitoring/_jbooter-monitoring.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/openshift/templates/registry/_jhipster-registry.yml" afterPath="$PROJECT_DIR$/generators/openshift/templates/registry/_jbooter-registry.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/server/templates/src/main/docker/_jhipster-registry.yml" afterPath="$PROJECT_DIR$/generators/server/templates/src/main/docker/_jbooter-registry.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/generators/server/templates/src/main/java/package/config/metrics/_JHipsterHealthIndicatorConfiguration.java" afterPath="$PROJECT_DIR$/generators/server/templates/src/main/java/package/config/metrics/_JBooterHealthIndicatorConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,12 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_jbt-item-count.directive.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_jbt-item-count.directive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/client/templates/angularjs/src/main/webapp/app/components/util/_jbt-item-count.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
+            <state relative-caret-position="646">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -220,6 +215,7 @@
         <option value="$PROJECT_DIR$/generators/app/index.js" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -529,6 +525,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="30" width="1332" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -545,7 +542,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,13 +587,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generators/app/templates/_skipClientApp.package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generators/aws/USAGE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -960,9 +950,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generators/client/templates/angularjs/src/main/webapp/app/components/util/_jbt-item-count.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
+        <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
