@@ -1,0 +1,10 @@
+<%#
+
+-%>
+{
+    "*": {
+        "target": "http://localhost:<%= serverPort %>",
+        "secure": false,
+        "loglevel": "debug"
+    }
+}

@@ -1,0 +1,18 @@
+version: '2'
+services:
+    jhgate-app:
+        image: jhgate
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
+            - SPRING_CLOUD_CONFIG_URI=http://admin:admin@jbooter-registry:8761/config
+            - SPRING_DATASOURCE_URL=jdbc:mysql://jhgate-mysql:3306/jhgate?useUnicode=true&characterEncoding=utf8&useSSL=false
+        ports:
+            - 8080:8080
+    jhgate-mysql:
+        extends:
+            file: mysql.yml
+            service: jhgate-mysql
+    jbooter-registry:
+        extends:
+            file: jbooter-registry.yml
+            service: jbooter-registry

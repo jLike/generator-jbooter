@@ -1,0 +1,5 @@
+Description:
+    Creates JDL from the json entities
+Example:
+    jbooter export-jdl
+    jbooter export-jdl jbooter.jh

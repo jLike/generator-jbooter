@@ -1,0 +1,4 @@
+*/*
+!*/.yo-rc.json
+!.jbooter/*
+*-sample/.yo-rc.json
